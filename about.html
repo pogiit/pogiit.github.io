@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="aboutsubjectteacher.html">Subject Teacher</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>About Us</h1>
+      <!DOCTYPE html>
+<html>
+<head>
+    <title>Student Directory</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Directory</h1>
+    <table id="StudentTable">
+        <tr>
+			<th>id</th>
+            <th>Name</th>
+            <th>Age</th>
+			<th>Sex</th>
+            <th>Address</th>
+            <th>Motto</th>
+        </tr>
+    </table>
+
+    <script>
+        var Students = [
+          { id: 1, Name: "Alipio Tagayuna Jr", Age: "21", Sex: "Male", Address: "Maddalero,Buguey,Cagayan", Motto:"Learn, grow, succeed"},
+          { id: 2, Name: "Efjay Vincent Manaday", Age: "19", Sex: "Male", Address: "Pattao,Buguey,Cagayan", Motto:"Work hard, play hard"},
+		  { id: 3, Name: "Harley David Padios", Age: "21", Sex: "Male", Address: "Maddalero,Buguey,Cagayan", Motto: "Dream big, achieve more" },
+		  { id: 4, Name: "Rafael Amanunce", Age: "21", Sex: "Male", Address: "Bulala Norte,Aparri,Cagayan", Motto:"Embrace the journey" },
+        ];
+
+        var table = document.getElementById("StudentTable");
+        Students.forEach(function(Student) {
+            var row = table.insertRow();
+			row.insertCell().textContent = Student.id;
+            row.insertCell().textContent = Student.Name;
+            row.insertCell().textContent = Student.Age;
+            row.insertCell().textContent = Student.Sex;
+            row.insertCell().textContent = Student.Address;
+			row.insertCell().textContent = Student.Motto;
+		
+        });
+    </script>
+</body>
+</html>
+
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
